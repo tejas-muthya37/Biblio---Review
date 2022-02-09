@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblio | Books Delivered</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="Navbar/navbar.css" rel="stylesheet" />
+    <link href="Card/card.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">biblio</a>
+      </div>
+
+      <div class="nav-items">
+        <li><button>Login</button></li>
+        <li>
+          <div class="nav-cart-mobile">
+            <div>
+              <a href="#">My Cart</a>
+            </div>
+            <span>(<span class="nav-count">2</span>)</span>
+          </div>
+          <div class="nav-cart">
+            <div>
+              <a href="#"><i class="fas fa-heart fa-lg"></i></a>
+            </div>
+            <span class="nav-count">2</span>
+          </div>
+        </li>
+
+        <li>
+          <div class="nav-wishlist-mobile">
+            <div>
+              <a href="#">My Wishlist</a>
+            </div>
+            <span>(<span class="nav-count">2</span>)</span>
+          </div>
+          <div class="nav-wishlist">
+            <div>
+              <a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a>
+            </div>
+            <span class="nav-count">2</span>
+          </div>
+        </li>
+        <li>
+          <input type="text" placeholder="Search" />
+        </li>
+      </div>
+
+      <div id="burger" class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <div class="landing-page-container categories">
+      <h3>PICK YOUR CATEGORY</h3>
+      <i class="fas fa-angle-double-down fa-3x"></i>
+      <div class="landing-page-content categories">
+        <div class="category-card">
+          <img src="Media/category-1.jpg" alt="" />
+          <p>Thriller</p>
+        </div>
+        <div class="category-card">
+          <img src="Media/category-2.jpg" alt="" />
+          <p>Drama</p>
+        </div>
+        <div class="category-card">
+          <img src="Media/category-3.jpg" alt="" />
+          <p>Sci-Fi</p>
+        </div>
+        <div class="category-card">
+          <img src="Media/category-4.jpg" alt="" />
+          <p>Romance</p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6bba1b5d71.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
