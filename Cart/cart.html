@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblio | Books Delivered</title>
+    <!-- <link rel="stylesheet" href="https://magic-library.netlify.app/master.css"> -->
+    <link href="cart.css" rel="stylesheet" />
+    <link href="../Navbar/navbar.css" rel="stylesheet" />
+    <link href="../Card/card.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#">biblio</a>
+      </div>
+
+      <div class="nav-items">
+        <li><button>Login</button></li>
+        <li>
+          <div class="nav-cart-mobile">
+            <div>
+              <a href="#">My Cart</a>
+            </div>
+            <span>(<span class="nav-count">2</span>)</span>
+          </div>
+          <div class="nav-cart">
+            <div>
+              <a href="#"><i class="fas fa-heart fa-lg"></i></a>
+            </div>
+            <span class="nav-count">2</span>
+          
+          </div>
+        </li>
+
+        <li>
+          <div class="nav-wishlist-mobile">
+            <div>
+              <a href="#">My Wishlist</a>
+            </div>
+            <span>(<span class="nav-count">2</span>)</span>
+          </div>
+          <div class="nav-wishlist">
+            <div>
+              <a href="#"><i class="fas fa-shopping-cart fa-lg"></i></a>
+            </div>
+            <span class="nav-count">2</span>
+          
+          </div>
+        </li>
+        <li>
+          <input type="text" placeholder="Search" />
+        </li>
+      </div>
+
+      <div id="burger" class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <h1 class="cart-title">MY CART</h1>
+    <div class="landing-page-container cart">
+      <div class="landing-page-content cart">
+        <div class="card-e-commerce cart-card">
+          <img class="item-image" src="../Media/thriller-book-1.jpg" alt="" />
+          <div class="item-content">
+            <p class="item-title">
+              Murder On The Orient Express
+              <span class="item-author"><br />by Agatha Christie</span>
+            </p>
+
+            <div class="price-with-quantity">
+                <p class="item-price-string">
+                    ₹ <span class="item-price">499</span>
+                </p>
+                <div class="quantity-group">
+                    <button class="btn-decrement">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="btn-increment">+</button>
+                </div>
+            </div>
+            <div class="button-group">
+              <button class="btn-cart">Remove From Cart</button>
+              <button class="btn-wishlist">Add To Wishlist</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-e-commerce cart-card">
+          <img class="item-image" src="../Media/drama-book-1.jpg" alt="" />
+          <div class="item-content">
+            <p class="item-title">
+              Legend Of Suheldev
+              <span class="item-author"><br />by Amish Tripathi</span>
+            </p>
+
+            <div class="price-with-quantity">
+                <p class="item-price-string">
+                    ₹ <span class="item-price">399</span>
+                </p>
+                <div class="quantity-group">
+                    <button class="btn-decrement">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="btn-increment">+</button>
+                </div>
+            </div>
+            <div class="button-group">
+              <button class="btn-cart">Remove From Cart</button>
+              <button class="btn-wishlist">Add To Wishlist</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-e-commerce cart-card">
+          <img class="item-image" src="../Media/scifi-book-1.jpg" alt="" />
+          <div class="item-content">
+            <p class="item-title">
+              Artemis
+              <span class="item-author"><br />by Andy Weir</span>
+            </p>
+
+            <div class="price-with-quantity">
+                <p class="item-price-string">
+                    ₹ <span class="item-price">249</span>
+                </p>
+                <div class="quantity-group">
+                    <button class="btn-decrement">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="btn-increment">+</button>
+                </div>
+            </div>
+            <div class="button-group">
+              <button class="btn-cart">Remove From Cart</button>
+              <button class="btn-wishlist">Add To Wishlist</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-e-commerce cart-card">
+          <img class="item-image" src="../Media/romance-book-1.jpg" alt="" />
+          <div class="item-content">
+            <p class="item-title">
+              Half Girlfriend
+              <span class="item-author"><br />by Chetan Bhagat</span>
+            </p>
+
+            <div class="price-with-quantity">
+                <p class="item-price-string">
+                    ₹ <span class="item-price">399</span>
+                </p>
+                <div class="quantity-group">
+                    <button class="btn-decrement">-</button>
+                    <span class="quantity-value">1</span>
+                    <button class="btn-increment">+</button>
+                </div>
+            </div>
+            <div class="button-group">
+              <button class="btn-cart">Remove From Cart</button>
+              <button class="btn-wishlist">Add To Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-details">
+        <h3>Order Details</h3>
+        <div class="pricing-details">
+          <div class="price-display">
+            <p class="price-title">Cart Total</p>
+            <p class="price-value-string"><span>₹</span class="price-value">4999</p>
+          </div>
+          <div class="shipping-cost-display">
+            <p class="shipping-cost-title">Shipping Cost</p>
+            <p class="shipping-cost-value-string">₹<span class="shipping-cost-value">199</span></p>
+          </div>
+        </div>
+        <div class="total-price">
+          <p class="total-price-display">Grand Total</p>
+          <p class="total-price-value-string">₹<span class="total-price-value">5198</span></p>
+        </div>
+        <button class="btn-checkout">Place Order</button>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6bba1b5d71.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../app.js" type="text/javascript"></script>
+    <script src="cart.js" type="text/javascript"></script>
+  </body>
+</html>
