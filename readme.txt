@@ -2,7 +2,7 @@ Biblio 📚
 
 Biblio is an E-Commerce App dedicated to delivering books to Bibliophiles.
 
-Biblio v1.0 includes the following features as of now :- 
+v1.0 includes the following features as of now :- 
 
 ⚡ Browse for books that belong to your preferred Category.
 
