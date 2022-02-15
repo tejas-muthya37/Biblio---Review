@@ -56,7 +56,7 @@ body {
 
 .landing-inputs label {
     margin-bottom: 5px;
-    color: #888888;
+    color: var(--secondary-color);
 }
 
 .landing-inputs input {
