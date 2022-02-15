@@ -4,6 +4,10 @@
     --secondary-color: #888888;
     --tertiary-color: #BEBEBE;
     --near-black: #282828;
+    --category-one: #FF0000;
+    --category-two: #ff8c00;
+    --category-three: skyblue;
+    --category-four: #ff5f77;
 }
 
 * {
@@ -73,19 +77,19 @@ body {
 }
 
 .category-card:nth-child(1) {
-    text-shadow: 2px 2px #FF0000;
+    text-shadow: 2px 2px var(--category-one);
 }
 
 .category-card:nth-child(2) {
-    text-shadow: 2px 2px #ff8c00;
+    text-shadow: 2px 2px var(--category-two);
 }
 
 .category-card:nth-child(3) {
-    text-shadow: 2px 2px skyblue;
+    text-shadow: 2px 2px var(--category-three);
 }
 
 .category-card:nth-child(4) {
-    text-shadow: 2px 2px #ff5f77;
+    text-shadow: 2px 2px var(--category-four);
 }
 
 
