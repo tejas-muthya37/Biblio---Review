@@ -23,7 +23,7 @@ body {
 }
 
 .landing-page-container.categories {
-    margin-top: 20vh;
+    margin-top: 17.5vh;
     padding: 0 10rem;
     opacity: 1;
     display: flex;
@@ -46,6 +46,12 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.landing-page-content.categories a {
+    text-decoration: none;
+    color: var(--near-black);
 }
 
 .landing-page-content.categories img {
@@ -62,7 +68,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    padding: 2rem;
+    padding: 1.75rem;
     cursor: pointer;
     transition: transform 0.1s ease-out;
 }
@@ -76,20 +82,20 @@ body {
     font-weight: bold;
 }
 
-.category-card:nth-child(1) {
-    text-shadow: 2px 2px var(--category-one);
+.thriller {
+    text-shadow: 2px 1px var(--category-one);
 }
 
-.category-card:nth-child(2) {
-    text-shadow: 2px 2px var(--category-two);
+.drama {
+    text-shadow: 2px 1px var(--category-two);
 }
 
-.category-card:nth-child(3) {
-    text-shadow: 2px 2px var(--category-three);
+.scifi {
+    text-shadow: 2px 1px var(--category-three);
 }
 
-.category-card:nth-child(4) {
-    text-shadow: 2px 2px var(--category-four);
+.romance {
+    text-shadow: 2px 1px var(--category-four);
 }
 
 
