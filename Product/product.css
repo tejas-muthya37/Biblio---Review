@@ -86,12 +86,6 @@ body {
     }
 }
 
-/* @media screen and (max-width: 570px) {
-    html {
-        font-size: 12px;
-    }
-} */
-
 @media screen and (max-width: 900px) {
     .landing-page-content {
         grid-template-columns: 1fr;
@@ -108,4 +102,5 @@ body {
     .landing-page-content {
         padding: 0;
     }
+
 }

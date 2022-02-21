@@ -22,7 +22,8 @@ body {
 }
 
 .wishlist-title {
-    margin-top: 17.5vh;
+    margin-top: 15vh;
+    margin-bottom: 4rem;
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 10px;
@@ -33,10 +34,6 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.wishlist-title~i {
-    margin: 4rem;
 }
 
 @media screen and (max-width: 1500px) {
@@ -63,5 +60,11 @@ body {
     .wishlist-title {
         letter-spacing: 2px;
         word-spacing: 4px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wishlist-title {
+        font-size: 1.75rem;
     }
 }

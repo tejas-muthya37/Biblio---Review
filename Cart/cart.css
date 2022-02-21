@@ -20,7 +20,7 @@ body {
 }
 
 .cart-title {
-    margin-top: 17.5vh;
+    margin-top: 15vh;
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 10px;
@@ -151,5 +151,6 @@ body {
     .cart-title {
         letter-spacing: 2px;
         word-spacing: 4px;
+        font-size: 1.75rem;
     }
 }
