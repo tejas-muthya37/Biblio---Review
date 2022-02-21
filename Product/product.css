@@ -86,13 +86,19 @@ body {
     }
 }
 
+/* @media screen and (max-width: 570px) {
+    html {
+        font-size: 12px;
+    }
+} */
+
 @media screen and (max-width: 900px) {
     .landing-page-content {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 570px) {
     .landing-page-container {
         flex-direction: column;
         align-items: center;
